@@ -8,4 +8,4 @@ var Splash = React.createClass({
 	}
 });
 
-module.exports = Home;
+module.exports = Splash;
