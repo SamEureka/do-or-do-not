@@ -1,0 +1,29 @@
+##Notes
+
+1. Main.js component renders the masthead and the active view (Active/Complete/Expired)
+2. Active.js component renders the list of active todo's and the form to add new todo
+3. Complete.js component renders the list of completed todo's
+4. Expired.js component rendters the list of todo's not done
+5. Data structure:
+
+	{ 
+		data: {
+			items: {
+				<auto-gen key>: {
+					description: "string",
+					priority: "string",
+					timestamp: epoch,
+					uid: "string"
+				}
+			},
+			users: {
+				user1: {
+					name: "string",
+					uid: "string",
+					email: "string",
+					state: {
+						// config: boolean // ***if needed***
+					},
+				} 
+			}
+		}

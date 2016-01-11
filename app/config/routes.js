@@ -8,7 +8,6 @@ var IndexRoute = Router.IndexRoute;
 
 module.exports = (
 	<Route path="/" component={Main}>
-	<Route path="/profile/:uid" component={Profile} />
 	<IndexRoute component={Home} />
 	</Route>
 	);
